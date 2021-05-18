@@ -7,4 +7,6 @@ $: << File.join(File.dirname(__FILE__), '..', 'lib')
 
 require 'fizzbuzz'
 
-puts fizzbuzz(3)
+(1..15).each do |number|
+  puts fizzbuzz(number)
+end
