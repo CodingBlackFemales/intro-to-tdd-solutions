@@ -7,6 +7,7 @@ Write a method that takes a number and returns:
 - "Fizz" for multiples of 3
 - "Buzz" for multiples of 5
 - "FizzBuzz" for multiples of 3 and 5
+<<<<<<< HEAD
 - The number when it is neither of the above
 
 For example, for numbers 1 to 15, we would expect the method to return the following:
@@ -52,3 +53,5 @@ If you'd like to run the `fizzbuzz` method and view the output, run the followin
 ```
 bin/console
 ```
+=======
+>>>>>>> 8487111... Add fizzbuzz and leap_year project skeletons (#1)
