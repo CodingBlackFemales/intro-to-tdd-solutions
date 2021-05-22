@@ -8,6 +8,9 @@ Write a method that takes a number and returns:
 - "Buzz" for multiples of 5
 - "FizzBuzz" for multiples of 3 and 5
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0e7a911... Update README with example. Update bin/console to run fizzbuzz method with numbers 1 - 15
 - The number when it is neither of the above
 
 For example, for numbers 1 to 15, we would expect the method to return the following:
@@ -29,6 +32,7 @@ For example, for numbers 1 to 15, we would expect the method to return the follo
 | 13    | 13         |
 | 14    | 14         |
 | 15    | "FizzBuzz" |
+<<<<<<< HEAD
 
 ## Tests
 
@@ -55,3 +59,5 @@ bin/console
 ```
 =======
 >>>>>>> 8487111... Add fizzbuzz and leap_year project skeletons (#1)
+=======
+>>>>>>> 0e7a911... Update README with example. Update bin/console to run fizzbuzz method with numbers 1 - 15
