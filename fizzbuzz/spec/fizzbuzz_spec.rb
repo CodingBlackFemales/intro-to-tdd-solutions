@@ -32,8 +32,12 @@ RSpec.describe 'fizzbuzz' do
   end
 
   context 'multiples of 3 and 5' do
-    it "returns `FizzBuzz` when the input is 15" do
-      expect(fizzbuzz(15)).to eq("FizzBuzz")
+    multiples_of_3_and_5 = [15, 30, 45, 60]
+
+    multiples_of_3_and_5.each do |number|
+      it "returns `FizzBuzz` when the input is #{number}" do
+        expect(fizzbuzz(number)).to eq("FizzBuzz")
+      end
     end
   end
 end
