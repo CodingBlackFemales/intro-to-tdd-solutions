@@ -21,5 +21,9 @@ RSpec.describe 'leap_year' do
     it "returns true when the year is 2008" do
       expect(leap_year(2008)).to eq(true)
     end
+
+    it "returns true when the year is 2012" do
+      expect(leap_year(2012)).to eq(true)
+    end
   end
 end
