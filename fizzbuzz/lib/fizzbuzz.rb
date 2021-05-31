@@ -1,9 +1,9 @@
 def fizzbuzz(number)
-  if is_multiple_of_3?(number) && number % 5 == 0
+  if is_multiple_of_3?(number) && is_multiple_of_5?(number)
     return "FizzBuzz"
   elsif is_multiple_of_3?(number)
     return "Fizz"
-  elsif number % 5 == 0
+  elsif is_multiple_of_5?(number)
     return "Buzz"
   end
 
@@ -12,4 +12,8 @@ end
 
 def is_multiple_of_3?(number)
   number % 3 == 0
+end
+
+def is_multiple_of_5?(number)
+  number % 5 == 0
 end
