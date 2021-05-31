@@ -28,8 +28,28 @@ RSpec.describe 'leap_year' do
   end
 
   context 'not divisible by 400, 100 or 4:' do
-    it "returns false when the year is 2017" do
-      expect(leap_year(2017)).to eq(false)
+    not_divisible = [
+      2001,
+      2002,
+      2003,
+      2005,
+      2006,
+      2007,
+      2009,
+      2010,
+      2011,
+      2013,
+      2014,
+      2015,
+      2017,
+      2018,
+      2019
+    ]
+
+    not_divisible.each do |number|
+      it "returns false when the year is #{number}" do
+        expect(leap_year(number)).to eq(false)
+      end
     end
   end
 end
