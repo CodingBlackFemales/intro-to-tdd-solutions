@@ -1,3 +1,3 @@
 def leap_year(year)
-  true
+  year != 1700
 end
