@@ -8,12 +8,12 @@ RSpec.describe 'leap_year' do
   end
 
   context 'divisible by 100, but not 400:' do
-    it "returns false when the year is 1700" do
-      expect(leap_year(1700)).to eq(false)
-    end
+    divisible_by_100 = [1700, 1800, 1900]
 
-    it "returns false when the year is 1800" do
-      expect(leap_year(1800)).to eq(false)
+    divisible_by_100.each do |number|
+      it "returns false when the year is #{number}" do
+        expect(leap_year(number)).to eq(false)
+      end
     end
   end
 end
