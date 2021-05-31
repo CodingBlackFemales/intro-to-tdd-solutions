@@ -3,7 +3,7 @@ require 'leap_year'
 RSpec.describe 'leap_year' do
   context 'divisible by 400:' do
     it "returns true when the year is 2000" do
-      expect(leap_year(2000)).to eq(true)
+      expect(leap_year(2000)).to be true
     end
   end
 
@@ -12,7 +12,7 @@ RSpec.describe 'leap_year' do
 
     divisible_by_100.each do |number|
       it "returns false when the year is #{number}" do
-        expect(leap_year(number)).to eq(false)
+        expect(leap_year(number)).to be false
       end
     end
   end
@@ -22,7 +22,7 @@ RSpec.describe 'leap_year' do
 
     divisible_by_4.each do |number|
       it "returns true when the year is #{number}" do
-        expect(leap_year(number)).to eq(true)
+        expect(leap_year(number)).to be true
       end
     end
   end
@@ -48,7 +48,7 @@ RSpec.describe 'leap_year' do
 
     not_divisible.each do |number|
       it "returns false when the year is #{number}" do
-        expect(leap_year(number)).to eq(false)
+        expect(leap_year(number)).to be false
       end
     end
   end
