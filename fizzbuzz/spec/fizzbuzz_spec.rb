@@ -1,11 +1,13 @@
 require 'fizzbuzz'
 
 RSpec.describe 'fizzbuzz' do
-  it 'returns 1 when the input is 1' do
-    expect(fizzbuzz(1)).to eq(1)
-  end
+  context 'returns the number' do
+    numbers = [1, 2, 4, 7, 8, 11, 13, 14]
 
-  it 'returns 2 when the input is 2' do
-    expect(fizzbuzz(2)).to eq(2)
+    numbers.each do |number|
+      it "returns #{number} when the input is #{number}" do
+        expect(fizzbuzz(number)).to eq(number)
+      end
+    end
   end
 end
