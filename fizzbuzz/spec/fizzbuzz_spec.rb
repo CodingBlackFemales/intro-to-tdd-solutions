@@ -15,5 +15,9 @@ RSpec.describe 'fizzbuzz' do
     it "returns `Fizz` when the input is 3" do
       expect(fizzbuzz(3)).to eq("Fizz")
     end
+
+    it "returns `Fizz` when the input is 6" do
+      expect(fizzbuzz(6)).to eq("Fizz")
+    end
   end
 end
