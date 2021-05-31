@@ -18,12 +18,12 @@ RSpec.describe 'leap_year' do
   end
 
   context 'divisible by 4, but not 100:' do
-    it "returns true when the year is 2008" do
-      expect(leap_year(2008)).to eq(true)
-    end
+    divisible_by_4 = [2004, 2008, 2012, 2016, 2020]
 
-    it "returns true when the year is 2012" do
-      expect(leap_year(2012)).to eq(true)
+    divisible_by_4.each do |number|
+      it "returns true when the year is #{number}" do
+        expect(leap_year(number)).to eq(true)
+      end
     end
   end
 end
