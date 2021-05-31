@@ -11,5 +11,9 @@ RSpec.describe 'leap_year' do
     it "returns false when the year is 1700" do
       expect(leap_year(1700)).to eq(false)
     end
+
+    it "returns false when the year is 1800" do
+      expect(leap_year(1800)).to eq(false)
+    end
   end
 end
