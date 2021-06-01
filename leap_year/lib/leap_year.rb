@@ -14,4 +14,3 @@ end
 
 def is_divisible_by_100?(year)
   year % 100 == 0
-end
