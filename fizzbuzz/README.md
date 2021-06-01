@@ -52,3 +52,7 @@ If you'd like to run the `fizzbuzz` method and view the output, run the followin
 ```
 bin/console
 ```
+
+## Step-By-Step Solution
+
+Head over to [https://github.com/CodingBlackFemales/intro-to-tdd-solutions/pull/5](https://github.com/CodingBlackFemales/intro-to-tdd-solutions/pull/5), where you'll be able to see the individual commits. Each commit represents a step for solving the exercise.
