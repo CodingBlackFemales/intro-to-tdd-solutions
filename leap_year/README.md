@@ -63,3 +63,7 @@ If you'd like to run the `leap_year` method and view the output, run the followi
 ```
 bin/console
 ```
+
+## Step-By-Step Solution
+
+Head over to [https://github.com/CodingBlackFemales/intro-to-tdd-solutions/pull/6](https://github.com/CodingBlackFemales/intro-to-tdd-solutions/pull/6), where you'll be able to see the individual commits. Each commit represents a step for solving the exercise.
