@@ -51,4 +51,5 @@ RSpec.describe 'leap_year' do
         expect(leap_year(number)).to be false
       end
     end
+  end
 end
